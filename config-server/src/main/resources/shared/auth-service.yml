@@ -1,0 +1,14 @@
+# filename: resources/shared/auth-service.yml
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      password: password
+      database: oauth-db
+
+server:
+  servlet:
+    context-path: /uaa
+  port: 8081
